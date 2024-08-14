@@ -2,15 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Statistics Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #009879;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
 <body>
-	
-    <!-- add table here -->
 
-        
+<h1>Covid-19 Vaccination Statistics</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>Total Vaccinations</th>
+            <th>Fully Vaccinated</th>
+            <th>Percentage Vaccinated</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>USA</td>
+            <td>400,000,000</td>
+            <td>180,000,000</td>
+            <td>54%</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>600,000,000</td>
+            <td>350,000,000</td>
+            <td>45%</td>
+        </tr>
+        <tr>
+            <td>UK</td>
+            <td>150,000,000</td>
+            <td>80,000,000</td>
+            <td>70%</td>
+        </tr>
+        <tr>
+            <td>Brazil</td>
+            <td>200,000,000</td>
+            <td>100,000,000</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+            <td>100,000,000</td>
+            <td>75,000,000</td>
+            <td>60%</td>
+        </tr>
+    </tbody>
+</table>
+
 </body>
 </html>
+
